@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
       - image: node:9.9.0
-    working_directory: ~/joaoDjunior.com
+    working_directory: ~/joaodjunior.tk
     steps:
       - checkout
       - run:
@@ -30,4 +30,4 @@ jobs:
             apt-get install -y awscli
       - run:
           name: Push to S3 bucket
-          command: cd public/ && aws s3 sync . s3://jdjscm/
+          command: cd public/ && aws s3 sync . s3://joaodjunior.tk/
