@@ -9,13 +9,13 @@ jobs:
       - checkout
       - run:
           name: Install Hexo CLI
-          command: sudo npm install -g hexo-cli
+          command: npm install -g hexo-cli
       - restore_cache:
           keys:
             - npm-deps-{{ checksum "package.json" }}
       - run:
           name: Install dependencies
-          command: sudo npm install
+          command: npm install
       - save_cache:
           key: npm-deps-{{ checksum "package.json" }}
           paths:
