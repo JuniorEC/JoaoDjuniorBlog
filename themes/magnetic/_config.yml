@@ -1,7 +1,9 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
+  Arquivos: /archives
+  Categorias: /categories/Spring
+  Sobre: /sobre
 
 # Default post title
 default_post_title: Untitled
@@ -13,7 +15,7 @@ default_cover_index: "http://placehold.it/450x450"
 default_cover_detail: "http://placehold.it/1300x500"
 
 # Favicon
-favicon: ""
+favicon: "/img/favicon.JPG"
 
 # Comments. Choose one by filling up the information
 comments:
