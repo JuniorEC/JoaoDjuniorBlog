@@ -20,7 +20,7 @@ favicon: "/img/favicon.JPG"
 # Comments. Choose one by filling up the information
 comments:
   # Disqus comments
-  disqus_shortname:
+  disqus_shortname: disqus_gL7p6fsw9l
   # Facebook comments
   facebook:
     appid:
